@@ -27,7 +27,7 @@ arch=$(uname -m)
 case "$os" in
   Linux)   os_part="unknown-linux-musl" ;;
   Darwin)  os_part="apple-darwin" ;;
-  FreeBSD) os_part="unknown-freebsd" ;;
+  FreeBSD) die "no prebuilt FreeBSD binary yet — install with: cargo install --git https://github.com/$REPO" ;;
   MINGW*|MSYS*|CYGWIN*) die "on Windows use: irm https://raw.githubusercontent.com/$REPO/main/install.ps1 | iex" ;;
   *) die "unsupported OS: $os (try: cargo install --git https://github.com/$REPO)" ;;
 esac

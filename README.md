@@ -25,7 +25,7 @@ Written in Rust. Runs on Linux, macOS, Windows, and FreeBSD.
 
 ## Install
 
-**macOS / Linux / FreeBSD**
+**macOS / Linux**
 
 ```sh
 curl -fsSL https://raw.githubusercontent.com/flaxodotdev/srvr/main/install.sh | sh
@@ -37,7 +37,7 @@ curl -fsSL https://raw.githubusercontent.com/flaxodotdev/srvr/main/install.sh | 
 irm https://raw.githubusercontent.com/flaxodotdev/srvr/main/install.ps1 | iex
 ```
 
-**From source** (any platform with Rust):
+**From source** (any platform with Rust, including FreeBSD):
 
 ```sh
 cargo install --git https://github.com/flaxodotdev/srvr
